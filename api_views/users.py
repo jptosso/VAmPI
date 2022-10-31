@@ -2,11 +2,10 @@ import re
 import jsonschema
 import jwt
 
-from config import db, vuln_app
+from config import db, vuln_app, vuln
 from api_views.json_schemas import *
 from flask import jsonify, Response, request, json
 from models.user_model import User
-from app import vuln
 
 
 def error_message_helper(msg):

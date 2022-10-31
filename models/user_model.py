@@ -1,8 +1,7 @@
 import datetime
 import jwt
 from sqlalchemy.orm import relationship
-from config import db, vuln_app
-from app import vuln, alive
+from config import db, vuln_app, vuln, alive
 from models.books_model import Book
 from random import randrange
 
